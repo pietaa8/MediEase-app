@@ -1,4 +1,4 @@
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/mediEase.png";
 import { Link } from "react-router-dom";
 import { RiLinkedinFill } from "react-icons/ri";
 import {
@@ -84,8 +84,9 @@ const Footer = () => {
           <div>
             <img src={logo} alt="medicare-logo" />
             <p className="text-[16px] leading-7 font-[400]">
-              Copyright ©️ {year} developed by Saksham Raghuvanshi All right
-              reserved
+              Copyright ©️ {year} developed by group of CSE-516 Software Engg.
+              Project
+              <strong> Team MediEase </strong> All right reserved
             </p>
             <div className="flex items-center gap-3 mt-4">
               {sociallinks.map((link, index) => (

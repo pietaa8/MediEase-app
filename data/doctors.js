@@ -1,11 +1,11 @@
-import doctorImg01 from "../src/assets/images/doctor-img01.png";
-import doctorImg02 from "../src/assets/images/doctor-img02.png";
-import doctorImg03 from "../src/assets/images/doctor-img03.png";
+import doctorImg01 from "../src/assets/images/doctor-Eleanor.jpg";
+import doctorImg02 from "../src/assets/images/doctor-Faris.jpg";
+import doctorImg03 from "../src/assets/images/doctor-Sheron.jpg";
 
 export const doctors = [
   {
     id: "01",
-    name: "Dr. Thruptis",
+    name: "Dr. Eleanor",
     specialty: "Surgeon",
     avgRating: 4.8,
     totalRating: 272,
@@ -19,7 +19,7 @@ export const doctors = [
   },
   {
     id: "02",
-    name: "Dr. D K Gupta",
+    name: "Dr. Faris",
     specialty: "Neurologist",
     avgRating: 4.8,
     totalRating: 272,
@@ -33,7 +33,7 @@ export const doctors = [
   },
   {
     id: "03",
-    name: "Dr. Charu Yadav",
+    name: "Dr. Sheron",
     specialty: "Gynaecology",
     avgRating: 4.8,
     totalRating: 272,
