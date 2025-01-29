@@ -2,7 +2,7 @@ import patients from "../src/assets/images/patient-avatar.png";
 export const reviews = [
   {
     id: "01",
-    name: "Yugesh",
+    name: "Rahim",
     date: "02-02-2023",
     photo: patients,
     reviewss: "Good Services, highly recommended",
@@ -10,7 +10,7 @@ export const reviews = [
   },
   {
     id: "02",
-    name: "Lovepreet",
+    name: "karim",
     date: "02-03-2023",
     photo: patients,
     reviewss: "Best Doctor",
@@ -19,7 +19,7 @@ export const reviews = [
 
   {
     id: "03",
-    name: "10zing",
+    name: "Ahmed",
     date: "10-04-2023",
     photo: patients,
     reviewss: "Highly recommended",
@@ -28,7 +28,7 @@ export const reviews = [
 
   {
     id: "04",
-    name: "Harshit",
+    name: "Hasan",
     date: "10-04-2023",
     photo: patients,
     reviewss: "Good",
