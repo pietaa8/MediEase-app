@@ -29,10 +29,15 @@ const Home = () => {
                   We help patients live a healthy, longer life
                 </h1>
                 <p className="text_para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer non accumsan sem. Aenean imperdiet erat eu nisi
-                  ultricies facilisis. Etiam ut velit dolor. Quisque lobortis
-                  nisl a vestibulum aliquet.
+                  <strong> MediEase </strong>is a user-friendly healthcare app
+                  designed to simplify your medical journey. From finding
+                  top-rated doctors to booking appointments seamlessly.
+                  <strong> MediEase </strong>
+                  ensures hassle-free access to quality healthcare with features
+                  like patient reviews, personalized recommendations, and
+                  hospital details. We connect you to the care you need. Your
+                  health, made easier and more accessible because
+                  <strong> we care</strong>.
                 </p>
                 <button className="btn">Request an Appointment</button>
               </div>
