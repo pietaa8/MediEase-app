@@ -6,6 +6,7 @@ import Login from "../Pages/Login";
 import Signup from "../Pages/Signup";
 import Services from "../Pages/Services";
 import DoctorsDetails from "../Pages/Doctors/DoctorsDetails";
+import AppointmentDetails from "../Pages/Doctors/AppointmentDetails"; // Import the new page
 
 const Routers = () => {
   return (
@@ -19,6 +20,11 @@ const Routers = () => {
       <Route path="/signup" element={<Signup />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/services" element={<Services />} />
+      <Route
+        path="/appointment-details"
+        element={<AppointmentDetails />}
+      />{" "}
+      {/* New route */}
     </Routes>
   );
 };
