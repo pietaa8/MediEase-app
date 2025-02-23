@@ -16,8 +16,9 @@ import DoctorsList from "./Doctors/DoctorsList";
 import FaqItem from "./Faq/FaqItem";
 import Testimonial from "../Components/Testimonial/Testimonial";
 import useTitle from "../Hooks/useTitle";
+
 const Home = () => {
-  useTitle("Home");
+  useTitle("Home-MediEase");
   return (
     <>
       <section className="hero__section pt-[60px] 2xl:h-[800px]">
