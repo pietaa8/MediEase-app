@@ -9,17 +9,18 @@ const DoctorAbout = ({ doctor = {} }) => {
           </span>
         </h3>
         <p className="text_para">
-          <strong>{doctor?.name || "Dr. Faris"}</strong> is a highly skilled
-          neurologist with extensive experience in diagnosing and treating a
-          wide range of neurological disorders. Specializing in conditions such
-          as migraines, epilepsy, stroke, and neurodegenerative diseases,{" "}
+          <strong>{doctor?.name || "Dr. Faris"}</strong> is a highly skilled{" "}
+          {doctor?.specialty || "medical professional"} with extensive
+          experience in diagnosing and treating a wide range of medical
+          conditions. Specializing in various areas of healthcare,{" "}
           <strong>{doctor?.name || "Dr. Faris"}</strong> is dedicated to
-          providing personalized care to each patient with a focus on
-          cutting-edge techniques and compassionate support. They aim to improve
-          the quality of life for individuals facing complex neurological
-          challenges. <strong>{doctor?.name || "Dr. Faris"}</strong> is also
-          committed to staying at the forefront of medical advancements through
-          continuous research and education.
+          providing personalized care to each patient with a focus on effective
+          treatment and compassionate support. Their goal is to improve the
+          well-being of individuals by offering innovative and tailored care
+          that meets the specific needs of every patient.{" "}
+          <strong>{doctor?.name || "Dr. Faris"}</strong> remains committed to
+          advancing their knowledge and expertise through continuous learning
+          and staying at the forefront of medical developments.
         </p>
       </div>
 

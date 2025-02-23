@@ -6,7 +6,8 @@ import Login from "../Pages/Login";
 import Signup from "../Pages/Signup";
 import Services from "../Pages/Services";
 import DoctorsDetails from "../Pages/Doctors/DoctorsDetails";
-import AppointmentDetails from "../Pages/Doctors/AppointmentDetails"; // Import the new page
+import AppointmentDetails from "../Pages/Doctors/AppointmentDetails";
+import SidePanel from "../Pages/Doctors/SidePanel";
 
 const Routers = () => {
   return (
@@ -20,6 +21,7 @@ const Routers = () => {
       <Route path="/signup" element={<Signup />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/services" element={<Services />} />
+      <Route path="/side-panel" element={<SidePanel />} />
       <Route
         path="/appointment-details"
         element={<AppointmentDetails />}

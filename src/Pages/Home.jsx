@@ -39,7 +39,9 @@ const Home = () => {
                   health, made easier and more accessible because
                   <strong> we care</strong>.
                 </p>
-                <button className="btn">Request an Appointment</button>
+                <button className="btn">
+                  <Link to="/doctors">Request an Appointment</Link>
+                </button>
               </div>
               <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
                 <div>
@@ -197,7 +199,9 @@ const Home = () => {
                 </li>
               </ul>
               <Link to="/">
-                <button className="btn">Learn More</button>
+                <button className="btn">
+                  <Link to="/doctors">Learn More</Link>
+                </button>
               </Link>
             </div>
 
