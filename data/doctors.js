@@ -8,7 +8,7 @@ import doctorImg06 from "../src/assets/images/doctor-Victor.jpg";
 export const doctors = [
   {
     id: "01",
-    name: "Dr. Eleanor",
+    name: "Dr. Fatima",
     specialty: "Surgeon",
     avgRating: 4.8,
     totalRating: 272,
@@ -36,7 +36,7 @@ export const doctors = [
   },
   {
     id: "03",
-    name: "Dr. Sheron",
+    name: "Dr. Mumina",
     specialty: "Gynaecology",
     avgRating: 4.8,
     totalRating: 272,
@@ -50,7 +50,7 @@ export const doctors = [
   },
   {
     id: "04",
-    name: "Dr. Snape",
+    name: "Dr. Saif",
     specialty: "Burn Specialist",
     avgRating: 4.8,
     totalRating: 272,
@@ -78,7 +78,7 @@ export const doctors = [
   },
   {
     id: "06",
-    name: "Dr. Victor",
+    name: "Dr. Naeem",
     specialty: "Cardiologist",
     avgRating: 4.8,
     totalRating: 272,
