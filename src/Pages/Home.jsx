@@ -87,7 +87,7 @@ const Home = () => {
         <div className="container">
           <div className="lg:[4709x] mx-auto">
             <h2 className="heading text-center">
-              Providing the best medical Services
+              Providing the best medical Services from ours to yours.
             </h2>
             <p className="text_para text-center">
               world-class care for everyone. Our healthy Sysytem offers
